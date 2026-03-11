@@ -95,7 +95,7 @@ Business Insights
 * notebooks → Jupyter analysis
 * sql → PostgreSQL queries
 * powerbi dashboard → Visualisation
-* reports → exported analysis notebook
+* PowerBI reports → exported analysis notebook
 
 ---
 
