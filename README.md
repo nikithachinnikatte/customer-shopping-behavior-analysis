@@ -70,13 +70,13 @@ A Power BI dashboard was created to visualize:
 ## Project Architecture
 
 Data Source (CSV Dataset)
-↓
+→
 Data Cleaning & Exploration (Python - Pandas)
-↓
+→
 Data Analysis Queries (PostgreSQL)
-↓
+→
 Data Visualization (Power BI)
-↓
+→
 Business Insights
 
 
