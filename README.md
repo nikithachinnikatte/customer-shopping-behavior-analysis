@@ -29,9 +29,9 @@ Key attributes:
 
 ## Tools Used
 
-Jupyter-Python (Pandas, Matplotlib, Seaborn)
-pgadmin4-PostgreSQL (SQL analytics queries)
-Power BI (interactive dashboard)
+* Jupyter-Python (Pandas, Matplotlib, Seaborn)
+* pgadmin4-PostgreSQL (SQL analytics queries)
+* Power BI (interactive dashboard)
 
 ---
 
