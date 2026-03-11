@@ -79,11 +79,11 @@ A Power BI dashboard was created to visualize:
 
 ## Repository Structure
 
-data → dataset
-notebooks → Jupyter analysis
-sql → PostgreSQL queries
-powerbi dashboard → Visualisation
-reports → exported analysis notebook
+* data → dataset
+* notebooks → Jupyter analysis
+* sql → PostgreSQL queries
+* powerbi dashboard → Visualisation
+* reports → exported analysis notebook
 
 ---
 
