@@ -1,0 +1,18 @@
+The Customer Behaviour Dashboard analyzes purchasing patterns of approximately 3.9K customers, with an average review rating of 3.75 and an average purchase amount of $59.76. The dashboard shows that 73% of customers do not have a subscription, while only 27% are subscribed, indicating potential opportunities to increase subscription adoption. Gender distribution analysis reveals that male customers form the majority (around 68%), suggesting that a larger share of purchases and engagement comes from male customers compared to female customers.
+
+Product category analysis shows that Clothing generates the highest revenue and sales, followed by Accessories, while Footwear and Outerwear contribute comparatively lower revenue. Age group analysis indicates that Middle-aged customers contribute the highest revenue and customer count, followed by Adults, highlighting them as the most valuable customer segment. Seasonal trends reveal that Fall records the highest revenue, while Summer shows comparatively lower sales, indicating seasonal variations in purchasing behavior.
+
+Further analysis of purchasing behavior shows that discount usage is significant, with a large number of customers purchasing when discounts are applied, suggesting that promotional strategies influence buying decisions. Shipping preference is fairly distributed among different shipping modes, with no single option dominating significantly. The rating vs purchase analysis also indicates that higher review ratings are associated with higher purchase amounts in categories like Clothing and Accessories, suggesting a relationship between customer satisfaction and spending behavior.
+
+DAX FORMULAS USED-
+* Age Group = 
+  SWITCH(
+      TRUE(),
+      public_customer[Age] < 25, "Young Adults",
+      public_customer[Age] >= 25 && public_customer[Age] < 40, "Adults",
+      public_customer[Age] >= 40 && public_customer[Age] < 60, "Middle Aged",
+      public_customer[Age] >= 60, "Senior"
+   )
+* Number of customers = COUNT('public_customer'[Customer ID])
+* Average Review rating = AVERAGE('public_customer'[Review Rating])
+* Average of purchase amount = AVERAGE('public_customer'[Purchase Amount (USD)])
