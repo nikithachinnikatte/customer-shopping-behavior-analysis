@@ -90,6 +90,3 @@ A Power BI dashboard was created to visualize:
 ## Author
 
 Nikitha CR
-B.Tech Electronics and Communication Engineering
-PES University
-
